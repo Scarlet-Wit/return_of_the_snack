@@ -1,5 +1,5 @@
 import React from 'react';
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import background from "./background.png";
 
 import './App.css';
@@ -25,7 +25,7 @@ function App() {
           </div>
           <div className="about-text">
           <p>The snack your parents warned you about is back.</p>
-          <p> At Cap’n Snackin, we know what it takes to survive a pandemic: food. We are dropping a limited-edition re-launch of our iconic gummy snack, Army Ants, this coming February. </p> 
+          <p> At Cap’n Snackin, we know the positive power of food. We are dropping a limited-edition re-launch of our iconic gummy snack, Army Ants, this coming February. </p> 
           <p> During the 90s you could find a pack of Cap'n Snackin's Army Ants at every lunch table across America. As times changed, we retired the product. But you asked us to relaunch – and we listened. </p>
           <p> Army Ants brought joy to the lives of Americans – and it will do the same again. </p> 
           <p> Available for preorder now.</p>
@@ -36,8 +36,7 @@ function App() {
         <div className="spacer1" />
         <div className="sign-up">Sign up for the updates!</div>
         <div className="sign-up-box"> 
-          <div className="sign-up-form">
-Name:
+          <div className="sign-up-form">Name:
         <input
           type="text"
           placeholder="Name"/>
